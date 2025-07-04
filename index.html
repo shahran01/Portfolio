@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shahran | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <nav>
+    <div class="logo">Shahran</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="toggle-mode" class="btn small">Toggle Mode</button>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="home" class="hero-section reveal">
+    <div class="hero-left">
+      <img src="images/PP.img.jpg" alt="Shahran" class="hero-img" />
+    </div>
+    <div class="hero-right">
+      <h1>Hi, I'm <span class="highlight">Shahran</span></h1>
+      <p>Frontend Developer | Learning Backend | Future Full Stack Engineer 🚀</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="reveal">
+    <h2>About Me</h2>
+    <p>
+      I'm a frontend developer currently learning backend to become a full stack developer.
+      I love building interactive and professional websites using HTML, CSS, and JavaScript.
+      Always curious to explore new technologies and solve real-world problems through code.
+    </p>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills" class="reveal">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span class="reveal">HTML</span>
+      <span class="reveal">CSS</span>
+      <span class="reveal">JavaScript</span>
+      <span class="reveal">Git & GitHub</span>
+      <span class="reveal">Python (Basics)</span>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="reveal">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <h3>Portfolio Website</h3>
+        <p>A modern responsive portfolio built using HTML, CSS, and JS.</p>
+        <a href="https://shahran01.github.io/Portfolio/" target="_blank">View Project</a>
+      </div>
+      <div class="project-card reveal">
+        <h3>Weather App</h3>
+        <p>A weather forecast web app that uses API for real-time data.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="reveal">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Shahran. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
